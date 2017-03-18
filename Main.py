@@ -1,3 +1,3 @@
 class Main:
-    def contarElementos(cadena):
-        pass
+    def contarElementos(self,cadena):
+        return 0

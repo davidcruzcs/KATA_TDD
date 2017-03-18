@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import Main
+from Main import Main
 
 class MainTest(TestCase):
     def test_contarElementos(self):
