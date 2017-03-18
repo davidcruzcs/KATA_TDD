@@ -7,7 +7,7 @@ class MainTest(TestCase):
         self.assertEqual(Main().contarElementos([""]),["0", "0", "0"], "Cadena Vacia")
 
     def test_contarElementos_UnElemento(self):
-        self.assertEqual(Main().contarElementos(["1"]), ["1", "1"], "Un Numero")
+        self.assertEqual(Main().contarElementos(["1"]), ["1", "1", "1"], "Un Numero")
 
     def test_contarElementos_DosElementos(self):
         self.assertEqual(Main().contarElementos(["1","2"]), ["2","1"], "Dos Numeros")
