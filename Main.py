@@ -1,3 +1,6 @@
 class Main:
     def contarElementos(self,cadena):
-        return 0
+        if cadena == "":
+            return 0
+        else:
+            return 1
