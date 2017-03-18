@@ -10,4 +10,4 @@ class MainTest(TestCase):
         self.assertEqual(Main().contarElementos(["1"]), ["1"], "Un Numero")
 
     def test_contarElementos_DosElementos(self):
-        self.assertEqual(Main().contarElementos(["1,1"]), ["2"], "Dos Numeros")
+        self.assertEqual(Main().contarElementos(["1","1"]), ["2"], "Dos Numeros")
